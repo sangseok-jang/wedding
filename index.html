@@ -415,12 +415,7 @@ section {overflow: hidden;}
                     										</td>
                                         				</tr>
                                         				<tr>
-                                        					<td class="ft1-5" colspan="2">
-                                        						<a href="#ssbankPopup" data-rel="popup" data-position-to="window" data-transition="pop"> 신랑측 마음 전하실 곳 </a>
-                                        						<div data-role="popup" id="ssbankPopup" data-dismissible="false" style="background-color: #fff">
-                                        							<a href="#" data-rel="back" class="ft1-3" style="padding-left:1em"> x </a>
-                                        						<div class="ft1-4"> 우리은행 1002-644-163189 (예금주 : 장상석)</p>
-                                        					</td>
+                                        					<td class="ft1-5" colspan="2" id="bank" text="우리은행 : 1002-644-163189 (예금주 : 장상석)"> 신랑측 마음 전하실 곳 </td>
                                         				</tr>
                                         				                                        			</table>
                                             	</div>
@@ -464,13 +459,7 @@ section {overflow: hidden;}
                     										</td>
                                         				</tr>
                                         				<tr>
-                                        					<td class="ft1-5" colspan="2">
-                                        						<a href="#mjbankPopup" data-rel="popup" data-position-to="window" data-transition="pop"> 신부측 마음 전하실 곳 </a>
-                                        						<div data-role="popup" id="mjbankPopup" data-dismissible="false">
-                                        							<a href="#" data-rel="back" class = "ft1-3" style= "padding-left:1em"> x </a>
-                                        							<div class="ft1-4"> 우리은행 1002-xxx-xxxxxx (예금주 : 김미준)</p>
-                                        						</div>
-                                        					</td>
+                                        					<td class="ft1-5" colspan="2" id="bank" text="우리은행 : 1002-644-163189 (예금주 : 장상석)"> 신부측 마음 전하실 곳</td>
                                         				</tr>
                                         				                                        			</table>
                                             	</div>
@@ -479,6 +468,8 @@ section {overflow: hidden;}
                             		</div>
                                 </div>
                                                             </div>
+
+                        <div class="ft1-5" id="bankText" style="text-align: center"> </div>
                         </div>
                     </section>
 
@@ -791,6 +782,13 @@ section {overflow: hidden;}
         
     	mobileIndex.setSection(_list);
     </script>
+    <script>
+		$(function(){
+  			$('#bank').click(function(){
+    			$('#bankText').text($('#bank').attr('text'));
+  			});
+		});
+	</script>
     
 </body>
 </html>
