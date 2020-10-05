@@ -1,0 +1,356 @@
+@charset "utf-8";
+
+body{background-color:#3D5929}
+
+@import url(//fonts.googleapis.com/earlyaccess/nanumpenscript.css);     /* font-family: 'Nanum Pen Script', cursive; */
+@import url(//fonts.googleapis.com/earlyaccess/jejugothic.css);         /* font-family: 'Jeju Gothic', sans-serif; */
+@import url(//fonts.googleapis.com/earlyaccess/jejumyeongjo.css);       /* font-family: 'Jeju Myeongjo', serif; */
+@import url(//fonts.googleapis.com/earlyaccess/kopubbatang.css);        /* font-family: 'KoPub Batang', serif; */
+@import url(//fonts.googleapis.com/earlyaccess/nanumbrushscript.css);   /* font-family: 'Nanum Brush Script', cursive; */
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);         /* font-family: 'Noto Sans KR', sans-serif; */
+@import url(//fonts.googleapis.com/earlyaccess/hanna.css);              /* font-family: 'Hanna', sans-serif; */
+@import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);        /* font-family: 'Nanum Gothic', sans-serif; */
+@import url(//fonts.googleapis.com/earlyaccess/nanummyeongjo.css);      /* font-family: 'Nanum Myeongjo', serif; */
+@import url(//fonts.googleapis.com/earlyaccess/jejuhallasan.css);       /* font-family: 'Jeju Hallasan', cursive; */
+@import url(//fonts.googleapis.com/earlyaccess/nanumgothiccoding.css);  /* font-family: 'Nanum Gothic Coding', monospace; */
+
+
+
+.collapse {
+    display: block;
+}
+
+.navbar-nav>li {
+    float: left;
+}
+
+.affix-top.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+
+.affix-top.navbar-default .nav>li>a, .affix-top.navbar-default .nav>li>a:focus {
+    color: #fff;
+}
+
+.navbar {
+    min-height: 30px;
+}
+
+.navbar-nav {
+    margin:inherit;
+    border: 0px solid transparent;
+}
+
+
+header {
+    background: url(/newage/img/bg-pattern.png),linear-gradient(to bottom right, #97816A, #E9E3DE);
+}
+
+
+section.vt100{min-height:100%; min-height:100vh}
+.btn-wrap {padding:10px 20px; text-align: center}
+
+ul.list-social li.social-facebook a {
+    background-color: #3b5998;
+}
+ul.list-social li.social-sms a {
+    background-color: #3b5998;
+}
+ul.list-social li.social-twitter a {
+    background-color: #1da1f2;
+}
+ul.list-social li a {
+    display: block;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    font-size: 2.5rem;
+    border-radius: 100%;
+    color: #fff;
+}
+
+
+.navbar-nav li {width:25%; text-align:center;}
+
+.row {margin-right:0px;margin-left: 0px;}
+
+.navbar-nav .active{background-color: #6D6074}
+.navbar-nav .active a{color: #fff !important;}
+.navbar-default .nav>li.active>a, .navbar-default .nav>li.active>a:focus {
+    color: #FFF!important;
+    background-color: transparent;
+}
+
+.navbar-default .nav>li>a:focus:hover, .navbar-default .nav>li>a:hover {
+    color: #222;
+}
+
+.affix {display:block;}
+.affix-top {display:none;}
+
+.affix-top .nav>li>a:focus:hover, .affix-top .nav>li>a:hover {
+    color: #fff;
+}
+
+.navbar-fixed-top {border-width: 0;}
+header .header-content {
+    text-align: center;
+    padding: 50px 0 50px;
+    position: relative;
+}
+
+section {
+    padding: 0px;
+}
+
+
+.btn { border-radius: 0px;}
+
+
+input::-webkit-input-placeholder { color: #fff; }
+input:-ms-input-placeholder { color: #fff; }
+input::-webkit-input-placeholder { color: #fff; }
+input::-moz-placeholder { color: #fff; } 
+input::-moz-placeholder { color: #fff; } 
+
+::-webkit-input-placeholder{color:#fff;}
+textarea:-moz-placeholder, input:-moz-placeholder{color:#fff;} 
+
+#message input{
+    padding:20px 10px; 
+    background-color: inherit;
+    color: #fff;
+}
+#message textarea{
+    background-color: inherit;
+    color: #fff;
+}
+
+
+.form-control {
+    font-size: 1.2rem;
+    border: 1px solid #fff;
+    border-radius: 0px;
+    background-color: inherit;
+    border-radius: 0px;
+    color: #fff;
+}
+
+
+.bg-purple{background-color: #fff; color:#3D5929; padding:10px;}
+.btn.bg-purple:hover {
+    color: #3D5929;
+    text-decoration: none;
+}
+.btn {font-weight: bold;}
+
+
+
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.container {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.comment-list {}
+.comment-title .title{ font-size: 1.4rem; font-weight: bold }
+.comment-title .date {font-size: 1.3rem; padding-left:10px; }
+.comment-content {padding:10px 0px; color:#777}
+
+.comment-footer a {color:#333; font-weight: bold; text-decoration: none;}
+
+
+.comment-reply-wrap {padding:10px; background-color: #EEEEEE}
+.comment-reply-wrap .bg-purple{background-color:#56783B ; color:#fff; padding:10px;}
+.comment-reply-wrap .bg-purple:hover{background-color:#56783B ; color:#fff;}
+
+.fa-comments {color: #56783B}
+
+.comment-reply-wrap .form-control {
+    font-size: 1.2rem;
+    border-width: 0px;
+    background-color: #fff;
+}
+
+.reply_wrap { border-bottom: 1px dotted #EEEEEE}
+
+.comment-reply-wrap{display:none;}
+.gretting-content-wrap {position: absolute; width: 100%}
+.gretting-content {padding:10px;}
+.content-title {text-align: center;}
+.content-title img {width:100px;}
+.content-body .detail-contents {text-align: center; padding-top:40px;line-height: 25px;}
+
+.pt80{padding-top: 80px;}
+.pt50{padding-top: 50px;}
+.pt40{padding-top: 40px;}
+.pt30{padding-top: 30px;}
+
+
+.navbar-nav {
+    margin: 0px;
+}
+.navbar-collapse {
+    border-top: 0px solid transparent;
+}
+
+.show_reply {
+    color: #333;
+}
+
+a:focus, a:hover {
+    color: #333;
+    text-decoration: none;
+}
+
+.comment-list input, .comment-list textarea {color:#333}
+
+.modal input, .modal textarea{color:#333}
+
+
+.carousel-control.left , .carousel-control.right {background-image: none;}
+
+.ui-loader {display:none;}
+
+.carousel-control .icon-next, .carousel-control .icon-prev {
+    width: initial;
+    height: initial;
+    margin-top: -25px;
+}
+
+
+.btn-info {
+    color: #fff;
+    background-color: #3D5929;
+    border-color: #3D5929;
+}
+
+.btn-info.active.focus, .btn-info.active:focus, .btn-info.active:hover, .btn-info:active.focus, .btn-info:active:focus, .btn-info:active:hover, .open>.dropdown-toggle.btn-info.focus, .open>.dropdown-toggle.btn-info:focus, .open>.dropdown-toggle.btn-info:hover {
+    color: #fff;
+    background-color: #3D5929;
+    border-color: #3D5929;
+}
+
+.btn-info.focus, .btn-info:focus {
+    color: #fff;
+    background-color: #3D5929;
+    border-color: #3D5929;
+}
+
+
+@media (min-width: 768px) {
+    .content-body .detail-contents {
+        text-align: center;
+        padding-top: 15%;
+        font-size: 2.7rem;
+        line-height: 60px;
+    }
+}
+
+.change-area {text-align: center; position: relative;}
+.change-area .width-max {max-width:100%;width:100%; }
+
+
+[class*=col-md-] {padding-right:0px; padding-left:0px;}
+.swiper-button-white{
+    background-color: rgba(0,0,0,0.1);
+    padding: 30px 20px;
+}
+
+.ft1 {font-size: 1em}
+.ft1-1 {font-size: 1.1em}
+.ft1-2 {font-size: 1.2em}
+.ft1-3 {font-size: 1.3em}
+.ft1-4 {font-size: 1.4em}
+.ft1-5 {font-size: 1.5em}
+.ft1-6 {font-size: 1.6em}
+.ft1-7 {font-size: 1.7em}
+.ft1-8 {font-size: 1.8em}
+.ft1-9 {font-size: 1.9em}
+.ft2 {font-size: 2em}
+.ft2-1 {font-size: 2.1em}
+.ft2-2 {font-size: 2.2em}
+.ft2-3 {font-size: 2.3em}
+.ft2-4 {font-size: 2.4em}
+.ft2-5 {font-size: 2.5em}
+.ft2-6 {font-size: 2.6em}
+.ft2-7 {font-size: 2.7em}
+.ft2-8 {font-size: 2.8em}
+.ft2-9 {font-size: 2.9em}
+.ft3 {font-size: 3em}
+.ft3-1 {font-size: 3.1em}
+.ft3-2 {font-size: 3.2em}
+.ft3-3 {font-size: 3.3em}
+.ft3-4 {font-size: 3.4em}
+.ft3-5 {font-size: 3.5em}
+.ft3-6 {font-size: 3.6em}
+.ft3-7 {font-size: 3.7em}
+.ft3-8 {font-size: 3.8em}
+.ft3-9 {font-size: 3.9em}
+.ft4 {font-size: 4em}
+.ft4-1 {font-size: 4.1em}
+.ft4-2 {font-size: 4.2em}
+.ft4-3 {font-size: 4.3em}
+.ft4-4 {font-size: 4.4em}
+.ft4-5 {font-size: 4.5em}
+.ft4-6 {font-size: 4.6em}
+.ft4-7 {font-size: 4.7em}
+.ft4-8 {font-size: 4.8em}
+.ft4-9 {font-size: 4.9em}
+.ft5 {font-size: 5em}
+.ft5-1 {font-size: 5.1em}
+.ft5-2 {font-size: 5.2em}
+.ft5-3 {font-size: 5.3em}
+.ft5-4 {font-size: 5.4em}
+.ft5-5 {font-size: 5.5em}
+.ft5-6 {font-size: 5.6em}
+.ft5-7 {font-size: 5.7em}
+.ft5-8 {font-size: 5.8em}
+.ft5-9 {font-size: 5.9em}
+
+
+
+.tac th, .tac td, .tac {text-align: center;}
+.tal th, .tal td, .tal {text-align: left;}
+
+
+.tac, .tac *{ text-align: center; }
+.tal, .tal * { text-align: left; }
+.tar, .tar * { text-align: right; }
+
+
+
+
+
+
+.ff-sans, .ff-sans * { font-family: 'Noto Sans KR', sans-serif; };	
+.ff-ng, .ff-ng *   { font-family: 'Nanum Gothic', sans-serif; };
+.ff-ngc, .ff-ngc *  { font-family: 'Nanum Gothic Coding', monospace; };
+.ff-nm, .ff-nm *   { font-family: 'Nanum Myeongjo', serif; };
+.ff-nps, .ff-nps *  { font-family: 'Nanum Pen Script', cursive; };
+.ffnbs { font-family: 'Nanum Brush Script', cursive; };
+.ff-jg, .ff-jg *   { font-family: 'Jeju Gothic', sans-serif; };
+.ff-jm, .ff-jm *   { font-family: 'Jeju Myeongjo', serif; };
+.ff-jh, .ff-jh *   { font-family: 'Jeju Hallasan', cursive; };
+.ff-kp, .ff-kp *   { font-family: 'KoPub Batang', serif; };
+.ff-hn, .ff-hn *   { font-family: 'Hanna', sans-serif; };
+
+.ajax-backdrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1040;
+  background-color: rgba(255, 238, 238, 0.8);
+}
